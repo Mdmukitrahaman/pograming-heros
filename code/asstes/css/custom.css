@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #F0FFF0;
+}
+#header img{
+  width: 180px;
+}
+#header,
+.navbar-nav,
+.nav-item,
+.nav-link{
+  font-size: 18px;
+  padding: 0px 15px;
+  font-weight: 600;
+
+  &:hover{
+    color: green;
+  }
+
+  &.active{
+    color: green;
+  }
+}
+#header button{
+  padding: 8px 35px;
+}
+.content h5{
+  text-transform: capitalize;
+  color: red;
+  
+}
+.content h1{
+  width: 400px;
+  height: 140px;
+  font-weight: 700;
+  font-size: 48px;
+  font-family: "Jost", serif;
+  line-height: 70px;
+}
+.content h1 span{
+  color: #21B573;
+}
+.content p{
+  width: 400px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.main-content img{
+  width: 66px;
+  height: 85px;
+}
+.main-box{
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  padding: 10px 0px;
+  box-shadow: 5px 5px 5px 5px;
+  border-radius: 5px;
+  transition: .2s ease-in;
+  &:hover{
+    background-color: #FFFFFF;
+  }
+}
+.coures-content img{
+  width: 330px;
+  height: 230px;
+}
+.coures-content{
+  box-sizing: border-box;
+  border: 1px solid #DADADA;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px;
+}
+.coures-calender p{
+  display: inline-block;
+}
+.coures-people p{
+  display: inline-block;
+}
+.coures-content{
+  overflow: hidden;
+}
+.coures-content img{
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+.coures-content img:hover{
+  transform: scale(1.2);
+}
+#footer{
+  background-color: #282531;
+}
+.title{
+  color: #fff;
+}
